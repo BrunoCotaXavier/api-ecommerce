@@ -20,7 +20,9 @@ Foi separado de forma que existem produtos, categorias, pedidos, items de pedido
     $ npm install 
 
 <br>
+
 2. Configure o ambiente. <br>
+
 - certifique-se que o docker está rodando e rode: <br>
     $ docker compose up
 - em um novo terminal rode as migrations: <br>
@@ -29,6 +31,7 @@ Foi separado de forma que existem produtos, categorias, pedidos, items de pedido
     $ npx prisma generate
 
 <br>
+
 3. Inicie o projeto. <br>
 - agora é só rodar o projeto: <br>
     $ npm run dev
