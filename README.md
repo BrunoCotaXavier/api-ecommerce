@@ -15,6 +15,7 @@ Foi separado de forma que existem produtos, categorias, pedidos, items de pedido
 - Baixe o docker. <br>
 - clone o projeto: <br>
     $ git clone https://github.com/BrunoCotaXavier/api-ecommerce.git
+<br>
     $ cd api-ecommerce
 - instale as dependencias: <br>
     $ npm install 
