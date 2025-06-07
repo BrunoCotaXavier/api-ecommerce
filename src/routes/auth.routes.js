@@ -5,7 +5,7 @@ const routerAuth = express.Router();
 routerAuth.post("/login", (request, response) => {
     const { email, password } = request.body;
     login(email, password, response)
-        .then(auth => response.status(201).json(auth))
+        .then(auth => response.status(200).json(auth))
         .catch(error => response.status(400).json({ message: error.message }))
 })
 

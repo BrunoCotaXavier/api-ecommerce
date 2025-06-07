@@ -20,7 +20,7 @@ const login = async (email, password) => {
             throw new Error("Acesso negado.")
         }
 
-        const token = jwt.sign({ userId: userExist.id }, SECRET, { expiresIn: 500 }) //18000000
+        const token = jwt.sign({ userId: userExist.id, userName: userExist.name }, SECRET, { expiresIn: 500 }) //18000000
 
         return { auth: true, token };
     } catch (error) {
